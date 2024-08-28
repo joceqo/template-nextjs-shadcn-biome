@@ -1,0 +1,19 @@
+import { Meta, Unstyled } from "@storybook/blocks";
+
+import Spacing from './spacing';
+import Sizer from "@/components/utils/sizer";
+import { sizes } from "@/components/utils/spacing/spacing";
+
+<Meta title="Utils/Spacing/All" />
+
+This story showcases all the spacing sizes available in our design system.
+
+## Sizes
+
+<Unstyled>
+  {sizes.map((size) => (
+    <Sizer key={size}>
+      <Spacing size={size} />
+    </Sizer>
+  ))}
+</Unstyled>

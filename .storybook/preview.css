@@ -1,0 +1,27 @@
+/* .sb-show-main.sb-main-padded {
+  padding: 0 !important;
+} */
+
+#storybook-root{
+  height: 100vh;
+  width: 100vw;
+}
+
+
+/* .sbdocs-wrapper, .sb-unstyled {
+  color: var(--foreground) !important;
+  background-color: var(--background) !important;
+}
+
+.sbdocs-wrapper :has(> div:has( > div:has( > div.sbdocs-preview))) {
+  background-color: unset !important;
+} */
+
+.docs-story {
+  color: hsl(var(--foreground)) !important;
+  background-color: hsl(var(--background)) !important;
+}
+
+.sbdocs-content:has(>p){
+  color: hsl(var(--foreground)) !important;
+}
